@@ -2,10 +2,6 @@
 
 **Shell**: Fish
 
-```
-fish_config theme save "Base16 Eighties"
-```
-
 **Terminal**: Alacritty
 
 **Prompt**: Starship
