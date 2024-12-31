@@ -1,0 +1,16 @@
+
+[font]
+size = 15.0
+
+[general]
+import = ["/Users/yuchuanhuang/.config/alacritty/base16-eighties.toml"]
+
+[scrolling]
+history = 100000  # max history
+
+[keyboard]
+bindings = [
+{ key = "Left",  mods = "Command", chars = "\u001BOH" },  # move to start of command
+{ key = "Right", mods = "Command", chars = "\u001BOF" },  # move to end of command
+{ key = "Comma", mods = "Command", command = {program = "sh", args = ["-c", "open ~/.config/alacritty/alacritty.toml"]}},  # open config file
+]
